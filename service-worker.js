@@ -5,7 +5,7 @@ const ASSETS = [
     './index.html',
     './app.js',
     './manifest.json',
-    './timetable.json'
+    '/timetable/timetable.json'
 ];
 
 // Install
