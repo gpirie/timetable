@@ -2,10 +2,10 @@ const CACHE_NAME = 'timetable-v1';
 
 const ASSETS = [
     '/',
-    '/index.html',
-    '/app.js',
-    '/manifest.json',
-    '/timetable.json'
+    './index.html',
+    './app.js',
+    './manifest.json',
+    './timetable.json'
 ];
 
 // Install
