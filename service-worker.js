@@ -1,10 +1,10 @@
 const CACHE_NAME = 'timetable-v1';
 
 const ASSETS = [
-    '/timetable/',
-    '/timetable/index.html',
-    '/timetable/app.js',
-    '/timetable/manifest.json',
+    '/',
+    './index.html',
+    './app.js',
+    './manifest.json',
     '/timetable/timetable.json'
 ];
 

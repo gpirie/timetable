@@ -1,5 +1,5 @@
 async function loadTimetable() {
-    const response = await fetch('/timetable/timetable.json');
+    const response = await fetch('/timetable.json');
     const data = await response.json();
 
     const container = document.getElementById('accordion');
