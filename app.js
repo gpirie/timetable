@@ -1,5 +1,5 @@
 async function loadTimetable() {
-    const response = await fetch('/timetable.json');
+    const response = await fetch('./timetable.json');
     const data = await response.json();
 
     const container = document.getElementById('accordion');
@@ -30,7 +30,7 @@ async function loadTimetable() {
 
 // Register SW
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js');
+    navigator.serviceWorker.register('./service-worker.js');
 }
 
 // Request notification permission
