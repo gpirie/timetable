@@ -1,0 +1,325 @@
+{
+  "student": "Struan Pirie",
+  "stage": "S1",
+  "registerGroup": "3",
+  "days": {
+    "Monday": [
+      {
+        "period": "Registration",
+        "start": "08:55",
+        "end": "09:04",
+        "subject": "Registration",
+        "teacher": "Mrs Lynch",
+        "room": "G11"
+      },
+      {
+        "period": 1,
+        "start": "09:04",
+        "end": "09:51",
+        "subject": "Us Time",
+        "teacher": "Mrs Lynch",
+        "room": "G11"
+      },
+      {
+        "period": 2,
+        "start": "09:51",
+        "end": "10:38",
+        "subject": "Social Subjects",
+        "teacher": "Mr Dargie",
+        "room": "L12"
+      },
+      {
+        "period": 3,
+        "start": "10:38",
+        "end": "11:25",
+        "subject": "Modern Languages",
+        "teacher": "Mr Mallen Bosch",
+        "room": "F9"
+      },
+      {
+        "period": 4,
+        "start": "11:40",
+        "end": "12:30",
+        "subject": "Mathematics",
+        "teacher": "Mrs Tumilla",
+        "room": "G6"
+      },
+      {
+        "period": 5,
+        "start": "12:30",
+        "end": "13:20",
+        "subject": "Art & Design",
+        "teacher": "Mrs Hutchison",
+        "room": "F3"
+      },
+      {
+        "period": 6,
+        "start": "14:10",
+        "end": "15:00",
+        "subject": "Physical Education",
+        "teacher": "Mr Robertson",
+        "room": "GH"
+      },
+      {
+        "period": 7,
+        "start": "15:00",
+        "end": "15:50",
+        "subject": "Physical Education",
+        "teacher": "Mr Robertson",
+        "room": "GH"
+      }
+    ],
+
+    "Tuesday": [
+      {
+        "period": "Registration",
+        "start": "08:55",
+        "end": "09:04",
+        "subject": "Registration",
+        "teacher": "Mrs Gilmour",
+        "room": "G11"
+      },
+      {
+        "period": 1,
+        "start": "09:04",
+        "end": "09:51",
+        "subject": "Home Economics",
+        "teacher": "Mrs McLaggan",
+        "room": "F12"
+      },
+      {
+        "period": 2,
+        "start": "09:51",
+        "end": "10:38",
+        "subject": "Home Economics",
+        "teacher": "Mrs McLaggan",
+        "room": "F12"
+      },
+      {
+        "period": 3,
+        "start": "10:38",
+        "end": "11:25",
+        "subject": "Sciences",
+        "teacher": "Mr Ramsay",
+        "room": "L7"
+      },
+      {
+        "period": 4,
+        "start": "11:40",
+        "end": "12:30",
+        "subject": "English",
+        "teacher": "Ms McKenna",
+        "room": "F7"
+      },
+      {
+        "period": 5,
+        "start": "12:30",
+        "end": "13:20",
+        "subject": "Mathematics",
+        "teacher": "Mrs Tumilla",
+        "room": "G6"
+      },
+      {
+        "period": 6,
+        "start": "14:10",
+        "end": "15:00",
+        "subject": "School of...",
+        "teacher": "TBC",
+        "room": "TBC"
+      },
+      {
+        "period": 7,
+        "start": "15:00",
+        "end": "15:50",
+        "subject": "School of...",
+        "teacher": "TBC",
+        "room": "TBC"
+      }
+    ],
+
+    "Wednesday": [
+      {
+        "period": "Registration",
+        "start": "08:55",
+        "end": "09:04",
+        "subject": "Registration",
+        "teacher": "Mrs Gilmour",
+        "room": "G11"
+      },
+      {
+        "period": 1,
+        "start": "09:04",
+        "end": "09:51",
+        "subject": "Physical Education",
+        "teacher": "Mr Robertson",
+        "room": "GH"
+      },
+      {
+        "period": 2,
+        "start": "09:51",
+        "end": "10:38",
+        "subject": "Social Subjects",
+        "teacher": "Mr Dargie",
+        "room": "L12"
+      },
+      {
+        "period": 3,
+        "start": "10:38",
+        "end": "11:25",
+        "subject": "English",
+        "teacher": "Ms McKenna",
+        "room": "F7"
+      },
+      {
+        "period": 4,
+        "start": "11:40",
+        "end": "12:30",
+        "subject": "Modern Languages",
+        "teacher": "Mr Mallen Bosch",
+        "room": "F9"
+      },
+      {
+        "period": 5,
+        "start": "12:30",
+        "end": "13:20",
+        "subject": "Mathematics",
+        "teacher": "Mrs Tumilla",
+        "room": "G6"
+      },
+      {
+        "period": 6,
+        "start": "14:10",
+        "end": "15:00",
+        "subject": "Art & Design",
+        "teacher": "Mrs Hutchison",
+        "room": "F3"
+      },
+      {
+        "period": 7,
+        "start": "15:00",
+        "end": "15:50",
+        "subject": "Personal & Social Education",
+        "teacher": "School / Mr McCaffrey",
+        "room": "F11"
+      }
+    ],
+
+    "Thursday": [
+      {
+        "period": "Registration",
+        "start": "08:55",
+        "end": "09:04",
+        "subject": "Registration",
+        "teacher": "Mrs Lynch",
+        "room": "G11"
+      },
+      {
+        "period": 1,
+        "start": "09:04",
+        "end": "09:51",
+        "subject": "Mathematics",
+        "teacher": "Mrs Tumilla",
+        "room": "G6"
+      },
+      {
+        "period": 2,
+        "start": "09:51",
+        "end": "10:38",
+        "subject": "Technologies",
+        "teacher": "Mr Bandeen",
+        "room": "G2"
+      },
+      {
+        "period": 3,
+        "start": "10:38",
+        "end": "11:25",
+        "subject": "English",
+        "teacher": "Ms McKenna",
+        "room": "F7"
+      },
+      {
+        "period": 4,
+        "start": "11:40",
+        "end": "12:30",
+        "subject": "Sciences",
+        "teacher": "Mr Ramsay",
+        "room": "L7"
+      },
+      {
+        "period": 5,
+        "start": "12:30",
+        "end": "13:20",
+        "subject": "Digital Skills",
+        "teacher": "Mrs Brodie",
+        "room": "ICT 2"
+      },
+      {
+        "period": 6,
+        "start": "14:10",
+        "end": "15:00",
+        "subject": "Music",
+        "teacher": "Mrs Jackson",
+        "room": "G11"
+      },
+      {
+        "period": 7,
+        "start": "15:00",
+        "end": "15:50",
+        "subject": "Social Subjects",
+        "teacher": "Mr Dargie",
+        "room": "L12"
+      }
+    ],
+
+    "Friday": [
+      {
+        "period": "Registration",
+        "start": "08:55",
+        "end": "09:04",
+        "subject": "Registration",
+        "teacher": "Mrs Lynch",
+        "room": "G11"
+      },
+      {
+        "period": 1,
+        "start": "09:04",
+        "end": "09:51",
+        "subject": "Music",
+        "teacher": "Mrs Jackson",
+        "room": "G11"
+      },
+      {
+        "period": 2,
+        "start": "09:51",
+        "end": "10:38",
+        "subject": "Digital Skills",
+        "teacher": "Mrs Brodie",
+        "room": "ICT 2"
+      },
+      {
+        "period": 3,
+        "start": "10:38",
+        "end": "11:25",
+        "subject": "Religious and Moral Education",
+        "teacher": "Mr Dargie",
+        "room": "L12"
+      },
+      {
+        "period": 4,
+        "start": "11:40",
+        "end": "12:30",
+        "subject": "Sciences",
+        "teacher": "Mr Ramsay",
+        "room": "L7"
+      },
+      {
+        "period": 5,
+        "start": "12:30",
+        "end": "13:20",
+        "subject": "English",
+        "teacher": "Ms McKenna",
+        "room": "F7"
+      }
+    ]
+  }
+}
