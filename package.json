@@ -1,0 +1,25 @@
+{
+  "name": "timetable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "sass --watch styles/style.scss:style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpirie/timetable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gpirie/timetable/issues"
+  },
+  "homepage": "https://github.com/gpirie/timetable#readme",
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}
