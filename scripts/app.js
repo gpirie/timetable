@@ -9,24 +9,45 @@ setupInstallPrompt();
  */
 async function init() {
     await loadTimetable();
+
+    startUIClock();
+    startServiceWorkerUpdater();
+    setupServiceWorkerListener();
 }
 
 init();
 
+
 /**
- * Lightweight UI refresh loop (DO NOT reload data)
+ * UI clock loop (updates lesson state + next lesson)
+ * Uses timeout recursion (more stable than setInterval on iOS)
  */
-setInterval(() => {
+function startUIClock() {
     refreshTimetableUI();
-}, 30000);
+
+    setTimeout(startUIClock, 15000); // 15s tick
+}
 
 
-setInterval(() => {
-    navigator.serviceWorker.getRegistration().then(r => r?.update());
-}, 60000);
+/**
+ * Ask SW for updates periodically
+ */
+function startServiceWorkerUpdater() {
+    setInterval(() => {
+        navigator.serviceWorker.getRegistration().then(reg => {
+            reg?.update();
+        });
+    }, 60000);
+}
 
-navigator.serviceWorker.addEventListener('message', (event) => {
-    if (event.data?.type === 'SW_UPDATED') {
-        window.location.reload();
-    }
-});
+
+/**
+ * Handle SW update messages (triggered from service worker)
+ */
+function setupServiceWorkerListener() {
+    navigator.serviceWorker.addEventListener('message', (event) => {
+        if (event.data?.type === 'SW_UPDATED') {
+            window.location.reload();
+        }
+    });
+}
