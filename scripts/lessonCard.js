@@ -6,50 +6,45 @@ export function renderNextLessonCard(lessons) {
 
     const currentMinutes = getCurrentMinutes();
 
-    let nextLesson = null;
+    // ALWAYS recompute fresh (no hidden state)
+    const upcoming = lessons
+        .filter(l => timeToMinutes(l.start) > currentMinutes)
+        .sort((a, b) =>
+            timeToMinutes(a.start) - timeToMinutes(b.start)
+        );
 
-    for (const lesson of lessons) {
+    const nextLesson = upcoming[0];
 
-        const startMinutes = timeToMinutes(lesson.start);
-
-        if (startMinutes > currentMinutes) {
-            nextLesson = lesson;
-            break;
-        }
-    }
-
-    if (nextLesson) {
-
-        const remaining =
-            timeToMinutes(nextLesson.start) - currentMinutes;
-
-        const hours = Math.floor(remaining / 60);
-        const minutes = remaining % 60;
-
-        let countdown = hours > 0
-            ? `${hours}h ${minutes}m`
-            : `${minutes} min`;
-
-        card.className = 'next';
-
+    if (!nextLesson) {
+        card.className = '';
         card.innerHTML = `
-            <h2>Next Lesson</h2>
-
-            <div class="subject">${nextLesson.subject}</div>
-
-            <p>${nextLesson.start} - ${nextLesson.end}</p>
-
-            <p>${nextLesson.room} • ${nextLesson.teacher}</p>
-
-            <div class="countdown">Starts in ${countdown}</div>
+            <h2>School Day Complete 🎉</h2>
+            <p>No more lessons today.</p>
         `;
-
         return;
     }
 
-    card.className = '';
+    const remaining = timeToMinutes(nextLesson.start) - currentMinutes;
+
+    const hours = Math.floor(remaining / 60);
+    const minutes = remaining % 60;
+
+    const countdown =
+        hours > 0
+            ? `${hours}h ${minutes}m`
+            : `${minutes} min`;
+
+    card.className = 'next';
+
     card.innerHTML = `
-        <h2>School Day Complete 🎉</h2>
-        <p>No more lessons today.</p>
+        <h2>Next Lesson</h2>
+
+        <div class="subject">${nextLesson.subject}</div>
+
+        <p>${nextLesson.start} - ${nextLesson.end}</p>
+
+        <p>${nextLesson.room} • ${nextLesson.teacher}</p>
+
+        <div class="countdown">Starts in ${countdown}</div>
     `;
 }

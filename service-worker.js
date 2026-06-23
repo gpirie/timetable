@@ -17,19 +17,6 @@ const ASSETS = [
 // INSTALL
 self.addEventListener('install', event => {
     self.skipWaiting();
-
-    event.waitUntil(
-        caches.open(CACHE_NAME).then(async cache => {
-
-            for (const asset of ASSETS) {
-                try {
-                    await cache.add(asset);
-                } catch (e) {
-                    console.warn('Cache failed:', asset);
-                }
-            }
-        })
-    );
 });
 
 

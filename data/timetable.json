@@ -37,6 +37,14 @@
         "room": "F9"
       },
       {
+        "period": "Break",
+        "start": "11:25",
+        "end": "11:40",
+        "subject": "Break",
+        "teacher": "",
+        "room": ""
+      },
+      {
         "period": 4,
         "start": "11:40",
         "end": "12:30",
@@ -51,6 +59,14 @@
         "subject": "Art & Design",
         "teacher": "Mrs Hutchison",
         "room": "F3"
+      },
+      {
+        "period": "Lunch",
+        "start": "13:20",
+        "end": "14:10",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
       },
       {
         "period": 6,
@@ -104,6 +120,14 @@
         "room": "L7"
       },
       {
+        "period": "Break",
+        "start": "11:25",
+        "end": "11:40",
+        "subject": "Break",
+        "teacher": "",
+        "room": ""
+      },
+      {
         "period": 4,
         "start": "11:40",
         "end": "12:30",
@@ -118,6 +142,14 @@
         "subject": "Mathematics",
         "teacher": "Mrs Tumilla",
         "room": "G6"
+      },
+      {
+        "period": "Lunch",
+        "start": "13:20",
+        "end": "14:10",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
       },
       {
         "period": 6,
@@ -171,6 +203,14 @@
         "room": "F7"
       },
       {
+        "period": "Break",
+        "start": "11:25",
+        "end": "11:40",
+        "subject": "Break",
+        "teacher": "",
+        "room": ""
+      },
+      {
         "period": 4,
         "start": "11:40",
         "end": "12:30",
@@ -185,6 +225,14 @@
         "subject": "Mathematics",
         "teacher": "Mrs Tumilla",
         "room": "G6"
+      },
+      {
+        "period": "Lunch",
+        "start": "13:20",
+        "end": "14:10",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
       },
       {
         "period": 6,
@@ -238,6 +286,14 @@
         "room": "F7"
       },
       {
+        "period": "Break",
+        "start": "11:25",
+        "end": "11:40",
+        "subject": "Break",
+        "teacher": "",
+        "room": ""
+      },
+      {
         "period": 4,
         "start": "11:40",
         "end": "12:30",
@@ -252,6 +308,14 @@
         "subject": "Digital Skills",
         "teacher": "Mrs Brodie",
         "room": "ICT 2"
+      },
+      {
+        "period": "Lunch",
+        "start": "13:20",
+        "end": "14:10",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
       },
       {
         "period": 6,
@@ -303,6 +367,14 @@
         "subject": "Religious and Moral Education",
         "teacher": "Mr Dargie",
         "room": "L12"
+      },
+      {
+        "period": "Break",
+        "start": "11:25",
+        "end": "11:40",
+        "subject": "Break",
+        "teacher": "",
+        "room": ""
       },
       {
         "period": 4,
