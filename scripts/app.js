@@ -19,3 +19,9 @@ init();
 setInterval(() => {
     refreshTimetableUI();
 }, 30000);
+
+navigator.serviceWorker.addEventListener('message', (event) => {
+    if (event.data?.type === 'SW_UPDATED') {
+        window.location.reload();
+    }
+});
