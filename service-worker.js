@@ -40,21 +40,18 @@ self.addEventListener('activate', event => {
         const keys = await caches.keys();
 
         await Promise.all(
-            keys.map(key => {
-                if (key !== CACHE_NAME) {
-                    return caches.delete(key);
-                }
-            })
+            keys.map(key => caches.delete(key))
         );
 
         await self.clients.claim();
 
-        // notify open tabs (important for iOS)
-        const clients = await self.clients.matchAll();
-
-        clients.forEach(client => {
-            client.postMessage({ type: 'SW_UPDATED' });
+        const clients = await self.clients.matchAll({
+            includeUncontrolled: true
         });
+
+        for (const client of clients) {
+            client.postMessage({ type: 'SW_UPDATED' });
+        }
 
     })());
 });
